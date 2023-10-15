@@ -42,14 +42,14 @@ const controllers = [
   'Arturia Keystep 37',
 ];
 
-const mixer = [
+const mixers = [
   '1010 Bluebox',
   'BASTL Dude',
   'BASTL Bestie',
   'Mackie 402VLZ4',
 ];
 
-const recorder = [
+const recorders = [
   '1010 Bluebox',
   'Sony PCM-D100',
   'Tascam Portastudio 424 MKI',
@@ -65,6 +65,6 @@ console.log(`Synth: ${rnd(synths)}`);
 console.log(`Module: ${rnd(modules)}`);
 console.log(`Effect: ${rnd(effects)}`);
 console.log(`Controller: ${rnd(controllers)}`);
-console.log(`Mixer: ${rnd(mixer)}`);
-console.log(`Recorder: ${rnd(recorder)}`);
+console.log(`Mixer: ${rnd(mixers)}`);
+console.log(`Recorder: ${rnd(recorders)}`);
 console.log('');
