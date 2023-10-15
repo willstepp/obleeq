@@ -1,16 +1,19 @@
 const synths = [
-  'SOMA Labs Lyra 8',
   'Moog Subharmonicon',
   'Moog DFAM',
   'Moog Mother-32',
   'Moog Mavis',
   'Dreadbox Typhon',
   'Dreadbox Nymphes',
-  'Moffenzeef Stargazer',
-  'SOMA Labs Ether V2',
+  '1010 Blackbox (sampler)',
+];
+
+const drones = [
+  'SOMA Labs Lyra 8',
   'SSF Quantum Rainbow 2 (noise)',
   'Drone Jar',
-  '1010 Blackbox',
+  'SOMA Labs Ether V2',
+  'Moffenzeef Stargazer',
 ];
 
 const modules = [
@@ -62,6 +65,7 @@ console.log('OBLEEQ: Synth Setup Generator');
 console.log('==========================================');
 console.log('');
 console.log(`Synth: ${rnd(synths)}`);
+console.log(`Drone: ${rnd(drones)}`);
 console.log(`Module: ${rnd(modules)}`);
 console.log(`Effect: ${rnd(effects)}`);
 console.log(`Controller: ${rnd(controllers)}`);
