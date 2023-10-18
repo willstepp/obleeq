@@ -5,12 +5,17 @@ const synths = [
   'Moog Mavis',
   'Dreadbox Typhon',
   'Dreadbox Nymphes',
+  '1010 Nanobox Fireball (wavetable)',
+  '1010 Nanobox Lemondrop (granular)',
   '1010 Blackbox (sampler)',
+  'BASTL Kastle ARP (melody generator)',
 ];
 
 const drones = [
+  'Make Noise Strega',
   'SOMA Labs Lyra 8',
-  'SSF Quantum Rainbow 2 (noise)',
+  'SOMA Labs Rumble of Ancient Times',
+  'SSF Quantum Rainbow 2 (static noise)',
   'Drone Jar',
   'SOMA Labs Ether V2',
   'Moffenzeef Stargazer',
@@ -21,11 +26,13 @@ const modules = [
   'Doepfer Sequential Switch',
   'Disting MK4',
   'Black Noise Slew/LFO',
+  'Instruo Lubadh',
 ];
 
 const effects = [
   'Moogerfooger MF-101 LPF',
   'Moogerfooger MF-103 12-Stage Phaser',
+  'Moogerfooger MF-102 Ring Modulator',
   'Chase Bliss Mood MKII',
   'Chase Bliss Generation Loss MKII',
   'Boss RV-6 Reverb',
@@ -35,7 +42,6 @@ const effects = [
   'ProCo Rat 2',
   'Krischer MS-20 Filter',
   'NLC Delay No More',
-  'Instruo Lubadh',
   'Korg NTS-1',
 ];
 
@@ -43,6 +49,7 @@ const controllers = [
   'OXI One',
   'Korg SQ-1',
   'Arturia Keystep 37',
+  'Make Noise 0-CTRL',
 ];
 
 const mixers = [
@@ -61,7 +68,7 @@ const recorders = [
 
 const rnd = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
-console.log('OBLEEQ: Synth Setup Generator');
+console.log('OBLEEQ: Music Setup Generator');
 console.log('==========================================');
 console.log('');
 console.log(`Synth: ${rnd(synths)}`);
