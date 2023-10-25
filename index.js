@@ -9,6 +9,7 @@ const synths = [
   '1010 Nanobox Lemondrop (granular)',
   '1010 Blackbox (sampler)',
   'BASTL Kastle ARP (melody generator)',
+  'Mini Mellotron',
 ];
 
 const drones = [
@@ -31,8 +32,8 @@ const modules = [
 
 const effects = [
   'Moogerfooger MF-101 LPF',
-  'Moogerfooger MF-103 12-Stage Phaser',
   'Moogerfooger MF-102 Ring Modulator',
+  'Moogerfooger MF-103 12-Stage Phaser',
   'Chase Bliss Mood MKII',
   'Chase Bliss Generation Loss MKII',
   'Boss RV-6 Reverb',
@@ -63,7 +64,7 @@ const recorders = [
   '1010 Bluebox',
   'Sony PCM-D100',
   'Tascam Portastudio 424 MKI',
-  'Panasonic Cassette Recorder',
+  'Marantz PMD 222 Recorder',
 ];
 
 const rnd = (arr) => arr[Math.floor(Math.random() * arr.length)];
