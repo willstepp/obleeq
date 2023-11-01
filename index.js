@@ -45,7 +45,6 @@ const effects = [
   'Krischer MS-20 Filter',
   'NLC Delay No More',
   'Korg NTS-1',
-  'Oto Baum',
 ];
 
 const controllers = [
@@ -60,6 +59,10 @@ const mixers = [
   'BASTL Dude',
   'BASTL Bestie',
   'Mackie 402VLZ4',
+];
+
+const endOfChains = [
+  'Oto BAUM',
 ];
 
 const recorders = [
@@ -77,9 +80,12 @@ console.log('');
 console.log(`Synth: ${rnd(synths)}`);
 console.log(`Drone: ${rnd(drones)}`);
 console.log(`Module: ${rnd(modules)}`);
-console.log(`Effect One: ${rnd(effects)}`);
-console.log(`Effect Two: ${rnd(effects)}`);
+const effectOne = rnd(effects);
+const effectTwo = rnd(effects.filter((e) => e !== effectOne));
+console.log(`Effect One: ${effectOne}`);
+console.log(`Effect Two: ${effectTwo}`);
 console.log(`Controller: ${rnd(controllers)}`);
 console.log(`Mixer: ${rnd(mixers)}`);
+console.log(`End of Chain: ${rnd(endOfChains)}`);
 console.log(`Recorder: ${rnd(recorders)}`);
 console.log('');
