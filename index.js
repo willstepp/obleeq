@@ -34,6 +34,7 @@ const effects = [
   'Moogerfooger MF-101 LPF',
   'Moogerfooger MF-102 Ring Modulator',
   'Moogerfooger MF-103 12-Stage Phaser',
+  'Moogerfooger MF-108 Cluster Flux',
   'Chase Bliss Mood MKII',
   'Chase Bliss Generation Loss MKII',
   'Boss RV-6 Reverb',
@@ -44,6 +45,7 @@ const effects = [
   'Krischer MS-20 Filter',
   'NLC Delay No More',
   'Korg NTS-1',
+  'Oto Baum',
 ];
 
 const controllers = [
@@ -75,7 +77,8 @@ console.log('');
 console.log(`Synth: ${rnd(synths)}`);
 console.log(`Drone: ${rnd(drones)}`);
 console.log(`Module: ${rnd(modules)}`);
-console.log(`Effect: ${rnd(effects)}`);
+console.log(`Effect One: ${rnd(effects)}`);
+console.log(`Effect Two: ${rnd(effects)}`);
 console.log(`Controller: ${rnd(controllers)}`);
 console.log(`Mixer: ${rnd(mixers)}`);
 console.log(`Recorder: ${rnd(recorders)}`);
