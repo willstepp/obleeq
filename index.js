@@ -31,10 +31,11 @@ const modules = [
 ];
 
 const effects = [
-  'Moogerfooger MF-101 LPF',
+  'Moogerfooger MF-101 Lowpass Filter',
   'Moogerfooger MF-102 Ring Modulator',
   'Moogerfooger MF-103 12-Stage Phaser',
   'Moogerfooger MF-108 Cluster Flux',
+  'Moogerfooger MF-104 Analog Delay',
   'Chase Bliss Mood MKII',
   'Chase Bliss Generation Loss MKII',
   'Boss RV-6 Reverb',
