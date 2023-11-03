@@ -28,6 +28,7 @@ const modules = [
   'Disting MK4',
   'Black Noise Slew/LFO',
   'Instruo Lubadh',
+  'Moogerfooger CP-251',
 ];
 
 const effects = [
