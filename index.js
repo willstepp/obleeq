@@ -47,6 +47,7 @@ const effects = [
   'Krischer MS-20 Filter',
   'NLC Delay No More',
   'Korg NTS-1',
+  'JMT Synth SRV-1 Spring Reverb',
 ];
 
 const controllers = [
