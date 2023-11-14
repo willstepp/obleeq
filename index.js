@@ -10,6 +10,7 @@ const synths = [
   '1010 Blackbox (sampler)',
   'BASTL Kastle ARP (melody generator)',
   'Mini Mellotron',
+  'Elektron Digitone',
 ];
 
 const drones = [
@@ -80,7 +81,10 @@ const rnd = (arr) => arr[Math.floor(Math.random() * arr.length)];
 console.log('OBLEEQ: Music Setup Generator');
 console.log('==========================================');
 console.log('');
-console.log(`Synth: ${rnd(synths)}`);
+const synthOne = rnd(synths);
+const synthTwo = rnd(synths.filter((s) => s !== synthOne));
+console.log(`Synth One: ${rnd(synths)}`);
+console.log(`Synth Two: ${rnd(synths)}`);
 console.log(`Drone: ${rnd(drones)}`);
 console.log(`Module: ${rnd(modules)}`);
 const effectOne = rnd(effects);
